@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.anime-gradient {
+  background: linear-gradient(135deg, #FF6B6B, #4ECDC4);
+}
+
+.anime-card {
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.anime-glow {
+  box-shadow: 0 0 15px rgba(78, 205, 196, 0.3);
+}
